@@ -22,6 +22,7 @@ chat_ai_icon = "icon/authoritative_government_officer.png"
 chat_user_icon = "icon/user.png"
 
 # connect to database
+@st.cache_resource
 def connect_database():
     host = os.environ.get("DB_HOST")
     port = os.environ.get("DB_PORT")

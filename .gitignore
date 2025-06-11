@@ -3,4 +3,5 @@ venv/**/**
 .devcontainer/**
 
 OIE Database Backup 26Feb2025/**/**
+ref/**
 test_query_db.py
